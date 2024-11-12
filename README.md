@@ -1,8 +1,8 @@
-Example: NodeJS with Typescript + Github Action
+# Example: NodeJS with Typescript + Github Action
 
-``` Open guide/guide.html in Chrome to view Guide in 10 steps ```
+## Open guide/guide.html in Chrome to view Guide in 10 steps
 
-
+## To start
 - `cd` into the project folder and run `npm install` to download dependencies.
 - Execute the command below to start the development server:
 
