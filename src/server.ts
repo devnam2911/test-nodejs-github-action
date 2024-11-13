@@ -6,7 +6,6 @@ import NodeCache from 'node-cache';
 import { format } from 'date-fns';
 import * as url from 'node:url';
 
-
 type Currency = {
   name: string;
   unit: string;
@@ -24,7 +23,6 @@ type ExchangeRateResult = {
   timestamp: Date;
   data: Rates;
 };
-
 
 const __dirname = url.fileURLToPath(new URL('.', import.meta.url));
 const appCache = new NodeCache();
