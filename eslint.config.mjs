@@ -8,5 +8,10 @@ export default tseslint.config(
   ...tseslint.configs.recommended,
   {
     ignores: ['node_modules', 'dist', 'guilde'],
+  },
+  {
+    rules: {
+      "@typescript-eslint/no-unused-vars": "off"
+    }
   }
 );
